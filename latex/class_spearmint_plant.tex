@@ -1,0 +1,130 @@
+\doxysection{Spearmint\+Plant Class Reference}
+\hypertarget{class_spearmint_plant}{}\label{class_spearmint_plant}\index{SpearmintPlant@{SpearmintPlant}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_spearmint_plant_a6e7c2148fb4f1f1ce88784a15c2b2f10}{Consumable\+Ability}} ()
+\item 
+void \mbox{\hyperlink{class_spearmint_plant_a2630d943eb7ce37d007f5b445c0e18a2}{Pickup}} (Vector3\+Int grid\+Position\+Int, Dictionary$<$ Vector3\+Int, Game\+Object $>$ obj\+Coordinates\+Dict, Game\+Object object\+To\+Destroy)
+\item 
+void \mbox{\hyperlink{class_spearmint_plant_aac1312255b24bc3e4fda7afb3446029c}{Placeable\+Ability}} ()
+\item 
+Game\+Object \mbox{\hyperlink{class_spearmint_plant_a02b624ce8e062af0323edc2d01d4ebbd}{Validate\+Placement}} (Dictionary$<$ int, Game\+Object $>$ tilemap\+Dict, Game\+Object player\+Controller, Vector3\+Int grid\+Pos)
+\item 
+void \mbox{\hyperlink{class_spearmint_plant_a4e18e649f65fa142ff67fb640836a4cf}{instantiate\+Object}} (Vector3\+Int grid\+Position\+Int, Game\+Object selected\+Obj, Tilemap\+Renderer cur\+Renderer, Dictionary$<$ Vector3\+Int, Game\+Object $>$ obj\+Coordinates\+Dict)
+\item 
+bool \mbox{\hyperlink{class_spearmint_plant_ad736f371a70c4f48c4c8b98a7af0b3a6}{Is\+Of\+Inventory\+Type}} (Inventory\+Item\+Type type)
+\item 
+void \mbox{\hyperlink{class_spearmint_plant_aef9368ae557c13f378e77acd5759ab13}{Increase\+Radius}} ()
+\item 
+void \mbox{\hyperlink{class_spearmint_plant_a0971879ea71b1c050dba2d8b590e407b}{Reset\+Radius}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_base_plant}{Base\+Plant}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_plant_s_o}{Plant\+SO}} {\bfseries get\+Plant\+SO} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Protected Attributes inherited from \mbox{\hyperlink{class_base_plant}{Base\+Plant}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_plant_s_o}{Plant\+SO}} {\bfseries plant\+SO}
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties inherited from \mbox{\hyperlink{class_base_plant}{Base\+Plant}}}
+\begin{DoxyCompactItemize}
+\item 
+Game\+Object {\bfseries Game\+Object}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties inherited from \mbox{\hyperlink{interface_i_inventory_item}{IInventory\+Item}}}
+\begin{DoxyCompactItemize}
+\item 
+Game\+Object {\bfseries Game\+Object}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_spearmint_plant_a6e7c2148fb4f1f1ce88784a15c2b2f10}\label{class_spearmint_plant_a6e7c2148fb4f1f1ce88784a15c2b2f10} 
+\index{SpearmintPlant@{SpearmintPlant}!ConsumableAbility@{ConsumableAbility}}
+\index{ConsumableAbility@{ConsumableAbility}!SpearmintPlant@{SpearmintPlant}}
+\doxysubsubsection{\texorpdfstring{ConsumableAbility()}{ConsumableAbility()}}
+{\footnotesize\ttfamily void Spearmint\+Plant.\+Consumable\+Ability (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_consumable}{IConsumable}}.
+
+\Hypertarget{class_spearmint_plant_aef9368ae557c13f378e77acd5759ab13}\label{class_spearmint_plant_aef9368ae557c13f378e77acd5759ab13} 
+\index{SpearmintPlant@{SpearmintPlant}!IncreaseRadius@{IncreaseRadius}}
+\index{IncreaseRadius@{IncreaseRadius}!SpearmintPlant@{SpearmintPlant}}
+\doxysubsubsection{\texorpdfstring{IncreaseRadius()}{IncreaseRadius()}}
+{\footnotesize\ttfamily void Spearmint\+Plant.\+Increase\+Radius (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_radius_placeable}{IRadius\+Placeable}}.
+
+\Hypertarget{class_spearmint_plant_a4e18e649f65fa142ff67fb640836a4cf}\label{class_spearmint_plant_a4e18e649f65fa142ff67fb640836a4cf} 
+\index{SpearmintPlant@{SpearmintPlant}!instantiateObject@{instantiateObject}}
+\index{instantiateObject@{instantiateObject}!SpearmintPlant@{SpearmintPlant}}
+\doxysubsubsection{\texorpdfstring{instantiateObject()}{instantiateObject()}}
+{\footnotesize\ttfamily void Spearmint\+Plant.\+instantiate\+Object (\begin{DoxyParamCaption}\item[{Vector3\+Int}]{grid\+Position\+Int,  }\item[{Game\+Object}]{selected\+Obj,  }\item[{Tilemap\+Renderer}]{cur\+Renderer,  }\item[{Dictionary$<$ Vector3\+Int, Game\+Object $>$}]{obj\+Coordinates\+Dict }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_placeable}{IPlaceable}}.
+
+\Hypertarget{class_spearmint_plant_ad736f371a70c4f48c4c8b98a7af0b3a6}\label{class_spearmint_plant_ad736f371a70c4f48c4c8b98a7af0b3a6} 
+\index{SpearmintPlant@{SpearmintPlant}!IsOfInventoryType@{IsOfInventoryType}}
+\index{IsOfInventoryType@{IsOfInventoryType}!SpearmintPlant@{SpearmintPlant}}
+\doxysubsubsection{\texorpdfstring{IsOfInventoryType()}{IsOfInventoryType()}}
+{\footnotesize\ttfamily bool Spearmint\+Plant.\+Is\+Of\+Inventory\+Type (\begin{DoxyParamCaption}\item[{Inventory\+Item\+Type}]{type }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_inventory_item}{IInventory\+Item}}.
+
+\Hypertarget{class_spearmint_plant_a2630d943eb7ce37d007f5b445c0e18a2}\label{class_spearmint_plant_a2630d943eb7ce37d007f5b445c0e18a2} 
+\index{SpearmintPlant@{SpearmintPlant}!Pickup@{Pickup}}
+\index{Pickup@{Pickup}!SpearmintPlant@{SpearmintPlant}}
+\doxysubsubsection{\texorpdfstring{Pickup()}{Pickup()}}
+{\footnotesize\ttfamily void Spearmint\+Plant.\+Pickup (\begin{DoxyParamCaption}\item[{Vector3\+Int}]{grid\+Position\+Int,  }\item[{Dictionary$<$ Vector3\+Int, Game\+Object $>$}]{obj\+Coordinates\+Dict,  }\item[{Game\+Object}]{object\+To\+Destroy }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_placeable}{IPlaceable}}.
+
+\Hypertarget{class_spearmint_plant_aac1312255b24bc3e4fda7afb3446029c}\label{class_spearmint_plant_aac1312255b24bc3e4fda7afb3446029c} 
+\index{SpearmintPlant@{SpearmintPlant}!PlaceableAbility@{PlaceableAbility}}
+\index{PlaceableAbility@{PlaceableAbility}!SpearmintPlant@{SpearmintPlant}}
+\doxysubsubsection{\texorpdfstring{PlaceableAbility()}{PlaceableAbility()}}
+{\footnotesize\ttfamily void Spearmint\+Plant.\+Placeable\+Ability (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_placeable}{IPlaceable}}.
+
+\Hypertarget{class_spearmint_plant_a0971879ea71b1c050dba2d8b590e407b}\label{class_spearmint_plant_a0971879ea71b1c050dba2d8b590e407b} 
+\index{SpearmintPlant@{SpearmintPlant}!ResetRadius@{ResetRadius}}
+\index{ResetRadius@{ResetRadius}!SpearmintPlant@{SpearmintPlant}}
+\doxysubsubsection{\texorpdfstring{ResetRadius()}{ResetRadius()}}
+{\footnotesize\ttfamily void Spearmint\+Plant.\+Reset\+Radius (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_radius_placeable}{IRadius\+Placeable}}.
+
+\Hypertarget{class_spearmint_plant_a02b624ce8e062af0323edc2d01d4ebbd}\label{class_spearmint_plant_a02b624ce8e062af0323edc2d01d4ebbd} 
+\index{SpearmintPlant@{SpearmintPlant}!ValidatePlacement@{ValidatePlacement}}
+\index{ValidatePlacement@{ValidatePlacement}!SpearmintPlant@{SpearmintPlant}}
+\doxysubsubsection{\texorpdfstring{ValidatePlacement()}{ValidatePlacement()}}
+{\footnotesize\ttfamily Game\+Object Spearmint\+Plant.\+Validate\+Placement (\begin{DoxyParamCaption}\item[{Dictionary$<$ int, Game\+Object $>$}]{tilemap\+Dict,  }\item[{Game\+Object}]{player\+Controller,  }\item[{Vector3\+Int}]{grid\+Pos }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_placeable}{IPlaceable}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+P\+:/\+Botography/\+Botography/\+Assets/\+Script/\+Items/\+Plant/Spearmint\+Plant.\+cs\end{DoxyCompactItemize}

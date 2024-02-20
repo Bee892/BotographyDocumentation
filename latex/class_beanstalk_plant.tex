@@ -1,0 +1,106 @@
+\doxysection{Beanstalk\+Plant Class Reference}
+\hypertarget{class_beanstalk_plant}{}\label{class_beanstalk_plant}\index{BeanstalkPlant@{BeanstalkPlant}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_beanstalk_plant_a455336a9f98620feb3a5f0cc433817da}{Pickup}} (Vector3\+Int grid\+Position\+Int, Dictionary$<$ Vector3\+Int, Game\+Object $>$ obj\+Coordinates\+Dict, Game\+Object object\+To\+Destroy)
+\item 
+void \mbox{\hyperlink{class_beanstalk_plant_ae1124f0945af480a5f1c4599c8a9462b}{Placeable\+Ability}} ()
+\item 
+Game\+Object \mbox{\hyperlink{class_beanstalk_plant_a69772eec7a15a02655204084a9a43312}{Validate\+Placement}} (Dictionary$<$ int, Game\+Object $>$ tilemap\+Dict, Game\+Object player\+Controller, Vector3\+Int grid\+Pos)
+\item 
+void \mbox{\hyperlink{class_beanstalk_plant_a020e85a5be7a939a42c6eaef1c7a1808}{instantiate\+Object}} (Vector3\+Int grid\+Position\+Int, Game\+Object selected\+Obj, Tilemap\+Renderer cur\+Renderer, Dictionary$<$ Vector3\+Int, Game\+Object $>$ obj\+Coordinates\+Dict)
+\item 
+bool \mbox{\hyperlink{class_beanstalk_plant_a22302c98fed516ee1ae5d5ce0ecb6f09}{Is\+Of\+Inventory\+Type}} (Inventory\+Item\+Type type)
+\item 
+\Hypertarget{class_beanstalk_plant_acd515bf340d3e1cbda5f28ae79b62003}\label{class_beanstalk_plant_acd515bf340d3e1cbda5f28ae79b62003} 
+void {\bfseries Stop\+Anchor} (\mbox{\hyperlink{class_beanstalk_anchor}{Beanstalk\+Anchor}} anchor)
+\item 
+\Hypertarget{class_beanstalk_plant_a6c5e9dffb707f3903f5efdd45e64204b}\label{class_beanstalk_plant_a6c5e9dffb707f3903f5efdd45e64204b} 
+string {\bfseries Get\+Anchor\+Layer} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_base_plant}{Base\+Plant}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_plant_s_o}{Plant\+SO}} {\bfseries get\+Plant\+SO} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_beanstalk_plant_ac079b1fa5fc99ca9bd20f09aa3c097f5}\label{class_beanstalk_plant_ac079b1fa5fc99ca9bd20f09aa3c097f5} 
+static \mbox{\hyperlink{class_beanstalk_plant}{Beanstalk\+Plant}} {\bfseries beanstalk\+Being\+Anchored} = null
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Protected Attributes inherited from \mbox{\hyperlink{class_base_plant}{Base\+Plant}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_plant_s_o}{Plant\+SO}} {\bfseries plant\+SO}
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties inherited from \mbox{\hyperlink{class_base_plant}{Base\+Plant}}}
+\begin{DoxyCompactItemize}
+\item 
+Game\+Object {\bfseries Game\+Object}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties inherited from \mbox{\hyperlink{interface_i_inventory_item}{IInventory\+Item}}}
+\begin{DoxyCompactItemize}
+\item 
+Game\+Object {\bfseries Game\+Object}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_beanstalk_plant_a020e85a5be7a939a42c6eaef1c7a1808}\label{class_beanstalk_plant_a020e85a5be7a939a42c6eaef1c7a1808} 
+\index{BeanstalkPlant@{BeanstalkPlant}!instantiateObject@{instantiateObject}}
+\index{instantiateObject@{instantiateObject}!BeanstalkPlant@{BeanstalkPlant}}
+\doxysubsubsection{\texorpdfstring{instantiateObject()}{instantiateObject()}}
+{\footnotesize\ttfamily void Beanstalk\+Plant.\+instantiate\+Object (\begin{DoxyParamCaption}\item[{Vector3\+Int}]{grid\+Position\+Int,  }\item[{Game\+Object}]{selected\+Obj,  }\item[{Tilemap\+Renderer}]{cur\+Renderer,  }\item[{Dictionary$<$ Vector3\+Int, Game\+Object $>$}]{obj\+Coordinates\+Dict }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_placeable}{IPlaceable}}.
+
+\Hypertarget{class_beanstalk_plant_a22302c98fed516ee1ae5d5ce0ecb6f09}\label{class_beanstalk_plant_a22302c98fed516ee1ae5d5ce0ecb6f09} 
+\index{BeanstalkPlant@{BeanstalkPlant}!IsOfInventoryType@{IsOfInventoryType}}
+\index{IsOfInventoryType@{IsOfInventoryType}!BeanstalkPlant@{BeanstalkPlant}}
+\doxysubsubsection{\texorpdfstring{IsOfInventoryType()}{IsOfInventoryType()}}
+{\footnotesize\ttfamily bool Beanstalk\+Plant.\+Is\+Of\+Inventory\+Type (\begin{DoxyParamCaption}\item[{Inventory\+Item\+Type}]{type }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_inventory_item}{IInventory\+Item}}.
+
+\Hypertarget{class_beanstalk_plant_a455336a9f98620feb3a5f0cc433817da}\label{class_beanstalk_plant_a455336a9f98620feb3a5f0cc433817da} 
+\index{BeanstalkPlant@{BeanstalkPlant}!Pickup@{Pickup}}
+\index{Pickup@{Pickup}!BeanstalkPlant@{BeanstalkPlant}}
+\doxysubsubsection{\texorpdfstring{Pickup()}{Pickup()}}
+{\footnotesize\ttfamily void Beanstalk\+Plant.\+Pickup (\begin{DoxyParamCaption}\item[{Vector3\+Int}]{grid\+Position\+Int,  }\item[{Dictionary$<$ Vector3\+Int, Game\+Object $>$}]{obj\+Coordinates\+Dict,  }\item[{Game\+Object}]{object\+To\+Destroy }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_placeable}{IPlaceable}}.
+
+\Hypertarget{class_beanstalk_plant_ae1124f0945af480a5f1c4599c8a9462b}\label{class_beanstalk_plant_ae1124f0945af480a5f1c4599c8a9462b} 
+\index{BeanstalkPlant@{BeanstalkPlant}!PlaceableAbility@{PlaceableAbility}}
+\index{PlaceableAbility@{PlaceableAbility}!BeanstalkPlant@{BeanstalkPlant}}
+\doxysubsubsection{\texorpdfstring{PlaceableAbility()}{PlaceableAbility()}}
+{\footnotesize\ttfamily void Beanstalk\+Plant.\+Placeable\+Ability (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_placeable}{IPlaceable}}.
+
+\Hypertarget{class_beanstalk_plant_a69772eec7a15a02655204084a9a43312}\label{class_beanstalk_plant_a69772eec7a15a02655204084a9a43312} 
+\index{BeanstalkPlant@{BeanstalkPlant}!ValidatePlacement@{ValidatePlacement}}
+\index{ValidatePlacement@{ValidatePlacement}!BeanstalkPlant@{BeanstalkPlant}}
+\doxysubsubsection{\texorpdfstring{ValidatePlacement()}{ValidatePlacement()}}
+{\footnotesize\ttfamily Game\+Object Beanstalk\+Plant.\+Validate\+Placement (\begin{DoxyParamCaption}\item[{Dictionary$<$ int, Game\+Object $>$}]{tilemap\+Dict,  }\item[{Game\+Object}]{player\+Controller,  }\item[{Vector3\+Int}]{grid\+Pos }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_placeable}{IPlaceable}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+P\+:/\+Botography/\+Botography/\+Assets/\+Script/\+Items/\+Plant/Beanstalk\+Plant.\+cs\end{DoxyCompactItemize}

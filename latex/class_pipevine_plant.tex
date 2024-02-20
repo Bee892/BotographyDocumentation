@@ -1,0 +1,103 @@
+\doxysection{Pipevine\+Plant Class Reference}
+\hypertarget{class_pipevine_plant}{}\label{class_pipevine_plant}\index{PipevinePlant@{PipevinePlant}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_pipevine_plant_afa2f7e693b3314cab3ef24e66553bcbe}{Pickup}} (Vector3\+Int grid\+Position\+Int, Dictionary$<$ Vector3\+Int, Game\+Object $>$ obj\+Coordinates\+Dict, Game\+Object object\+To\+Destroy)
+\item 
+void \mbox{\hyperlink{class_pipevine_plant_aa213d5d52f95dd7aadd3a004495c3840}{Placeable\+Ability}} ()
+\item 
+Game\+Object \mbox{\hyperlink{class_pipevine_plant_ace5f3f76f9a1f021b4d2042c7f483926}{Validate\+Placement}} (Dictionary$<$ int, Game\+Object $>$ tilemap\+Dict, Game\+Object player\+Controller, Vector3\+Int grid\+Pos)
+\item 
+void \mbox{\hyperlink{class_pipevine_plant_ae44b893f25070dff079f12672a776e9b}{instantiate\+Object}} (Vector3\+Int grid\+Position\+Int, Game\+Object selected\+Obj, Tilemap\+Renderer cur\+Renderer, Dictionary$<$ Vector3\+Int, Game\+Object $>$ obj\+Coordinates\+Dict)
+\item 
+bool \mbox{\hyperlink{class_pipevine_plant_a4f218324545691e9aa60b4c227d38eb1}{Is\+Of\+Inventory\+Type}} (Inventory\+Item\+Type type)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_base_plant}{Base\+Plant}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_plant_s_o}{Plant\+SO}} {\bfseries get\+Plant\+SO} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_pipevine_plant_a897d5adb826432baab65bd13e6908ad9}\label{class_pipevine_plant_a897d5adb826432baab65bd13e6908ad9} 
+static \mbox{\hyperlink{class_pipevine_plant}{Pipevine\+Plant}} {\bfseries first\+Pipevine} = null
+\item 
+\Hypertarget{class_pipevine_plant_afa4d5e51ab0b6ec53064b20ffa5e285e}\label{class_pipevine_plant_afa4d5e51ab0b6ec53064b20ffa5e285e} 
+static \mbox{\hyperlink{class_pipevine_plant}{Pipevine\+Plant}} {\bfseries second\+Pipevine} = null
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Protected Attributes inherited from \mbox{\hyperlink{class_base_plant}{Base\+Plant}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_plant_s_o}{Plant\+SO}} {\bfseries plant\+SO}
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties inherited from \mbox{\hyperlink{class_base_plant}{Base\+Plant}}}
+\begin{DoxyCompactItemize}
+\item 
+Game\+Object {\bfseries Game\+Object}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties inherited from \mbox{\hyperlink{interface_i_inventory_item}{IInventory\+Item}}}
+\begin{DoxyCompactItemize}
+\item 
+Game\+Object {\bfseries Game\+Object}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_pipevine_plant_ae44b893f25070dff079f12672a776e9b}\label{class_pipevine_plant_ae44b893f25070dff079f12672a776e9b} 
+\index{PipevinePlant@{PipevinePlant}!instantiateObject@{instantiateObject}}
+\index{instantiateObject@{instantiateObject}!PipevinePlant@{PipevinePlant}}
+\doxysubsubsection{\texorpdfstring{instantiateObject()}{instantiateObject()}}
+{\footnotesize\ttfamily void Pipevine\+Plant.\+instantiate\+Object (\begin{DoxyParamCaption}\item[{Vector3\+Int}]{grid\+Position\+Int,  }\item[{Game\+Object}]{selected\+Obj,  }\item[{Tilemap\+Renderer}]{cur\+Renderer,  }\item[{Dictionary$<$ Vector3\+Int, Game\+Object $>$}]{obj\+Coordinates\+Dict }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_placeable}{IPlaceable}}.
+
+\Hypertarget{class_pipevine_plant_a4f218324545691e9aa60b4c227d38eb1}\label{class_pipevine_plant_a4f218324545691e9aa60b4c227d38eb1} 
+\index{PipevinePlant@{PipevinePlant}!IsOfInventoryType@{IsOfInventoryType}}
+\index{IsOfInventoryType@{IsOfInventoryType}!PipevinePlant@{PipevinePlant}}
+\doxysubsubsection{\texorpdfstring{IsOfInventoryType()}{IsOfInventoryType()}}
+{\footnotesize\ttfamily bool Pipevine\+Plant.\+Is\+Of\+Inventory\+Type (\begin{DoxyParamCaption}\item[{Inventory\+Item\+Type}]{type }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_inventory_item}{IInventory\+Item}}.
+
+\Hypertarget{class_pipevine_plant_afa2f7e693b3314cab3ef24e66553bcbe}\label{class_pipevine_plant_afa2f7e693b3314cab3ef24e66553bcbe} 
+\index{PipevinePlant@{PipevinePlant}!Pickup@{Pickup}}
+\index{Pickup@{Pickup}!PipevinePlant@{PipevinePlant}}
+\doxysubsubsection{\texorpdfstring{Pickup()}{Pickup()}}
+{\footnotesize\ttfamily void Pipevine\+Plant.\+Pickup (\begin{DoxyParamCaption}\item[{Vector3\+Int}]{grid\+Position\+Int,  }\item[{Dictionary$<$ Vector3\+Int, Game\+Object $>$}]{obj\+Coordinates\+Dict,  }\item[{Game\+Object}]{object\+To\+Destroy }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_placeable}{IPlaceable}}.
+
+\Hypertarget{class_pipevine_plant_aa213d5d52f95dd7aadd3a004495c3840}\label{class_pipevine_plant_aa213d5d52f95dd7aadd3a004495c3840} 
+\index{PipevinePlant@{PipevinePlant}!PlaceableAbility@{PlaceableAbility}}
+\index{PlaceableAbility@{PlaceableAbility}!PipevinePlant@{PipevinePlant}}
+\doxysubsubsection{\texorpdfstring{PlaceableAbility()}{PlaceableAbility()}}
+{\footnotesize\ttfamily void Pipevine\+Plant.\+Placeable\+Ability (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_placeable}{IPlaceable}}.
+
+\Hypertarget{class_pipevine_plant_ace5f3f76f9a1f021b4d2042c7f483926}\label{class_pipevine_plant_ace5f3f76f9a1f021b4d2042c7f483926} 
+\index{PipevinePlant@{PipevinePlant}!ValidatePlacement@{ValidatePlacement}}
+\index{ValidatePlacement@{ValidatePlacement}!PipevinePlant@{PipevinePlant}}
+\doxysubsubsection{\texorpdfstring{ValidatePlacement()}{ValidatePlacement()}}
+{\footnotesize\ttfamily Game\+Object Pipevine\+Plant.\+Validate\+Placement (\begin{DoxyParamCaption}\item[{Dictionary$<$ int, Game\+Object $>$}]{tilemap\+Dict,  }\item[{Game\+Object}]{player\+Controller,  }\item[{Vector3\+Int}]{grid\+Pos }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_placeable}{IPlaceable}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+P\+:/\+Botography/\+Botography/\+Assets/\+Script/\+Items/\+Plant/Pipevine\+Plant.\+cs\end{DoxyCompactItemize}

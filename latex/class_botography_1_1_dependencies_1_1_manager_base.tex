@@ -1,0 +1,64 @@
+\doxysection{Botography.\+Dependencies.\+Manager\+Base\texorpdfstring{$<$}{<} S, U \texorpdfstring{$>$}{>} Class Template Reference}
+\hypertarget{class_botography_1_1_dependencies_1_1_manager_base}{}\label{class_botography_1_1_dependencies_1_1_manager_base}\index{Botography.Dependencies.ManagerBase$<$ S, U $>$@{Botography.Dependencies.ManagerBase$<$ S, U $>$}}
+
+
+Managers manage the relationship between UI collections and Systems. Systems should almost never communicate directly with UI elements or UI collections.\+This reduces unnecessary coupling. Managers also are able to communicate with one another so that systems can affect other systems as needed.  
+
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_botography_1_1_dependencies_1_1_manager_base_a0bdc9d5adb454c172908c5fc62dbf2f2}{Set\+Ui\+Active}} (bool active, bool override\+Exempt=false)
+\begin{DoxyCompactList}\small\item\em Sets all UI elements associated with this manager active based on the given boolean. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_botography_1_1_dependencies_1_1_manager_base_a4ef46b71729572008bc389adc63226bf}\label{class_botography_1_1_dependencies_1_1_manager_base_a4ef46b71729572008bc389adc63226bf} 
+S {\bfseries system}
+\item 
+\Hypertarget{class_botography_1_1_dependencies_1_1_manager_base_a82c691e0c1983200d64de404ed67305f}\label{class_botography_1_1_dependencies_1_1_manager_base_a82c691e0c1983200d64de404ed67305f} 
+U {\bfseries ui\+Collection}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Managers manage the relationship between UI collections and Systems. Systems should almost never communicate directly with UI elements or UI collections.\+This reduces unnecessary coupling. Managers also are able to communicate with one another so that systems can affect other systems as needed. 
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em S} & The system concrete class.\\
+\hline
+{\em U} & The UI collection concrete class.\\
+\hline
+\end{DoxyTemplParams}
+\begin{Desc}
+\item[Type Constraints]\begin{description}
+\item[{\em S} : {\em \mbox{\hyperlink{interface_botography_1_1_dependencies_1_1_interfaces_1_1_i_system}{ISystem}}}]\item[{\em U} : {\em \mbox{\hyperlink{interface_botography_1_1_dependencies_1_1_interfaces_1_1_i_ui_collection}{IUi\+Collection}}}]\end{description}
+\end{Desc}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_botography_1_1_dependencies_1_1_manager_base_a0bdc9d5adb454c172908c5fc62dbf2f2}\label{class_botography_1_1_dependencies_1_1_manager_base_a0bdc9d5adb454c172908c5fc62dbf2f2} 
+\index{Botography.Dependencies.ManagerBase$<$ S, U $>$@{Botography.Dependencies.ManagerBase$<$ S, U $>$}!SetUiActive@{SetUiActive}}
+\index{SetUiActive@{SetUiActive}!Botography.Dependencies.ManagerBase$<$ S, U $>$@{Botography.Dependencies.ManagerBase$<$ S, U $>$}}
+\doxysubsubsection{\texorpdfstring{SetUiActive()}{SetUiActive()}}
+{\footnotesize\ttfamily void \mbox{\hyperlink{class_botography_1_1_dependencies_1_1_manager_base}{Botography.\+Dependencies.\+Manager\+Base}}$<$ S, U $>$.Set\+Ui\+Active (\begin{DoxyParamCaption}\item[{bool}]{active,  }\item[{bool}]{override\+Exempt = {\ttfamily false} }\end{DoxyParamCaption})}
+
+
+
+Sets all UI elements associated with this manager active based on the given boolean. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em active} & \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interface_botography_1_1_dependencies_1_1_interfaces_1_1_i_manager_ab3e774554f02e6d9da6eacff8acd9e9f}{Botography.\+Dependencies.\+Interfaces.\+IManager}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+P\+:/\+Botography/\+Botography/\+Assets/\+Script/\+Base Dependencies/Manager\+Base.\+cs\end{DoxyCompactItemize}

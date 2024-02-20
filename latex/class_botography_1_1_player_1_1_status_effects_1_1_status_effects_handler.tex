@@ -1,0 +1,54 @@
+\doxysection{Botography.\+Player.\+Status\+Effects.\+Status\+Effects\+Handler Class Reference}
+\hypertarget{class_botography_1_1_player_1_1_status_effects_1_1_status_effects_handler}{}\label{class_botography_1_1_player_1_1_status_effects_1_1_status_effects_handler}\index{Botography.Player.StatusEffects.StatusEffectsHandler@{Botography.Player.StatusEffects.StatusEffectsHandler}}
+
+
+Tracks all status effects on the character.  
+
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_botography_1_1_player_1_1_status_effects_1_1_status_effects_handler_a72aee2d1cee39da1c533fa66f7f8a5a0}\label{class_botography_1_1_player_1_1_status_effects_1_1_status_effects_handler_a72aee2d1cee39da1c533fa66f7f8a5a0} 
+void {\bfseries Setup} ()
+\item 
+\Hypertarget{class_botography_1_1_player_1_1_status_effects_1_1_status_effects_handler_aa340513e841576a58753e5964391de39}\label{class_botography_1_1_player_1_1_status_effects_1_1_status_effects_handler_aa340513e841576a58753e5964391de39} 
+void {\bfseries Add\+Timed\+SE} (\mbox{\hyperlink{class_botography_1_1_player_1_1_status_effects_1_1_timed_status_effect}{Timed\+Status\+Effect}} effect)
+\item 
+\Hypertarget{class_botography_1_1_player_1_1_status_effects_1_1_status_effects_handler_a97648188715abd5f02c31149f09081e4}\label{class_botography_1_1_player_1_1_status_effects_1_1_status_effects_handler_a97648188715abd5f02c31149f09081e4} 
+void {\bfseries Add\+Pos\+SE} (\mbox{\hyperlink{class_botography_1_1_player_1_1_status_effects_1_1_pos_status_effect}{Pos\+Status\+Effect}} effect)
+\item 
+\Hypertarget{class_botography_1_1_player_1_1_status_effects_1_1_status_effects_handler_ae35fb583e7785ade9f602e2b6ba88791}\label{class_botography_1_1_player_1_1_status_effects_1_1_status_effects_handler_ae35fb583e7785ade9f602e2b6ba88791} 
+void {\bfseries Subtract\+Pos\+SE} (Status\+Effect\+Type type, int sub\+Stacks=1)
+\item 
+\Hypertarget{class_botography_1_1_player_1_1_status_effects_1_1_status_effects_handler_a2279e47582dea8f3fa021a77dd802cf4}\label{class_botography_1_1_player_1_1_status_effects_1_1_status_effects_handler_a2279e47582dea8f3fa021a77dd802cf4} 
+void {\bfseries Clear\+Status\+Effects} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_botography_1_1_player_1_1_status_effects_1_1_status_effects_handler_abf117d6d629c6dcddfb321525a66686a}\label{class_botography_1_1_player_1_1_status_effects_1_1_status_effects_handler_abf117d6d629c6dcddfb321525a66686a} 
+static \mbox{\hyperlink{class_botography_1_1_player_1_1_status_effects_1_1_status_effects_handler}{Status\+Effects\+Handler}} {\bfseries Instance}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\Hypertarget{class_botography_1_1_player_1_1_status_effects_1_1_status_effects_handler_a535d3a7d5f70dad41b3287965f9b0983}\label{class_botography_1_1_player_1_1_status_effects_1_1_status_effects_handler_a535d3a7d5f70dad41b3287965f9b0983} 
+int {\bfseries Temperature}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\Hypertarget{class_botography_1_1_player_1_1_status_effects_1_1_status_effects_handler_a2b279b243c520999ef43ccd7971a01d2}\label{class_botography_1_1_player_1_1_status_effects_1_1_status_effects_handler_a2b279b243c520999ef43ccd7971a01d2} 
+bool {\bfseries Is\+Illuminated}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\Hypertarget{class_botography_1_1_player_1_1_status_effects_1_1_status_effects_handler_a9d20a9ccb2318dbe65d6eda7d909b7de}\label{class_botography_1_1_player_1_1_status_effects_1_1_status_effects_handler_a9d20a9ccb2318dbe65d6eda7d909b7de} 
+bool {\bfseries Can\+Breathe\+Under\+Water}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\Hypertarget{class_botography_1_1_player_1_1_status_effects_1_1_status_effects_handler_a80b585abaaa6af1d9c63daa599d0523c}\label{class_botography_1_1_player_1_1_status_effects_1_1_status_effects_handler_a80b585abaaa6af1d9c63daa599d0523c} 
+bool {\bfseries Is\+Under\+Water}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\Hypertarget{class_botography_1_1_player_1_1_status_effects_1_1_status_effects_handler_a1cc9dc3e10709eb3dfaece9e2afbdef9}\label{class_botography_1_1_player_1_1_status_effects_1_1_status_effects_handler_a1cc9dc3e10709eb3dfaece9e2afbdef9} 
+bool {\bfseries Is\+Dark}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Tracks all status effects on the character. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+P\+:/\+Botography/\+Botography/\+Assets/\+Script/\+Player/\+Status\+Effects/Status\+Effects\+Handler.\+cs\end{DoxyCompactItemize}

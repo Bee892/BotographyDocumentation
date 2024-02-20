@@ -1,0 +1,124 @@
+\doxysection{Growcap\+Plant Class Reference}
+\hypertarget{class_growcap_plant}{}\label{class_growcap_plant}\index{GrowcapPlant@{GrowcapPlant}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_growcap_plant_aaa9aebe8c7f4bca3ecbc0be129039551}\label{class_growcap_plant_aaa9aebe8c7f4bca3ecbc0be129039551} 
+void {\bfseries Placeable\+Radius\+Ability} ()
+\item 
+\Hypertarget{class_growcap_plant_a8b55bdb8c1fe0771ef549d01f1531b6f}\label{class_growcap_plant_a8b55bdb8c1fe0771ef549d01f1531b6f} 
+void {\bfseries Remove\+Ability} ()
+\item 
+void \mbox{\hyperlink{class_growcap_plant_ac14d832cd9c8e8d10050b4e2858f870d}{Pickup}} (Vector3\+Int grid\+Position\+Int, Dictionary$<$ Vector3\+Int, Game\+Object $>$ obj\+Coordinates\+Dict, Game\+Object object\+To\+Destroy)
+\item 
+Game\+Object \mbox{\hyperlink{class_growcap_plant_a02b25f13e7146400eb13d10f119b6769}{Validate\+Placement}} (Dictionary$<$ int, Game\+Object $>$ tilemap\+Dict, Game\+Object player\+Controller, Vector3\+Int grid\+Pos)
+\item 
+void \mbox{\hyperlink{class_growcap_plant_a91ad88bbe96e87376cf5c6af9cae6f5a}{instantiate\+Object}} (Vector3\+Int grid\+Position\+Int, Game\+Object selected\+Obj, Tilemap\+Renderer cur\+Renderer, Dictionary$<$ Vector3\+Int, Game\+Object $>$ obj\+Coordinates\+Dict)
+\item 
+bool \mbox{\hyperlink{class_growcap_plant_a2e8e0ca1a95fa24a85e71a0d98191c64}{Is\+Of\+Inventory\+Type}} (Inventory\+Item\+Type type)
+\item 
+void \mbox{\hyperlink{class_growcap_plant_af10d91ac82f0ee2b3fa4584ad8f8e009}{Increase\+Radius}} ()
+\item 
+void \mbox{\hyperlink{class_growcap_plant_a03e5a416d85f0bf5316c2273b982a4b0}{Reset\+Radius}} ()
+\item 
+void \mbox{\hyperlink{class_growcap_plant_a5cc1c0ad2483122e67a938f2d6b6b094}{Placeable\+Ability}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_base_plant}{Base\+Plant}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_plant_s_o}{Plant\+SO}} {\bfseries get\+Plant\+SO} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Protected Attributes inherited from \mbox{\hyperlink{class_base_plant}{Base\+Plant}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_plant_s_o}{Plant\+SO}} {\bfseries plant\+SO}
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties inherited from \mbox{\hyperlink{class_base_plant}{Base\+Plant}}}
+\begin{DoxyCompactItemize}
+\item 
+Game\+Object {\bfseries Game\+Object}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties inherited from \mbox{\hyperlink{interface_i_inventory_item}{IInventory\+Item}}}
+\begin{DoxyCompactItemize}
+\item 
+Game\+Object {\bfseries Game\+Object}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_growcap_plant_af10d91ac82f0ee2b3fa4584ad8f8e009}\label{class_growcap_plant_af10d91ac82f0ee2b3fa4584ad8f8e009} 
+\index{GrowcapPlant@{GrowcapPlant}!IncreaseRadius@{IncreaseRadius}}
+\index{IncreaseRadius@{IncreaseRadius}!GrowcapPlant@{GrowcapPlant}}
+\doxysubsubsection{\texorpdfstring{IncreaseRadius()}{IncreaseRadius()}}
+{\footnotesize\ttfamily void Growcap\+Plant.\+Increase\+Radius (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_radius_placeable}{IRadius\+Placeable}}.
+
+\Hypertarget{class_growcap_plant_a91ad88bbe96e87376cf5c6af9cae6f5a}\label{class_growcap_plant_a91ad88bbe96e87376cf5c6af9cae6f5a} 
+\index{GrowcapPlant@{GrowcapPlant}!instantiateObject@{instantiateObject}}
+\index{instantiateObject@{instantiateObject}!GrowcapPlant@{GrowcapPlant}}
+\doxysubsubsection{\texorpdfstring{instantiateObject()}{instantiateObject()}}
+{\footnotesize\ttfamily void Growcap\+Plant.\+instantiate\+Object (\begin{DoxyParamCaption}\item[{Vector3\+Int}]{grid\+Position\+Int,  }\item[{Game\+Object}]{selected\+Obj,  }\item[{Tilemap\+Renderer}]{cur\+Renderer,  }\item[{Dictionary$<$ Vector3\+Int, Game\+Object $>$}]{obj\+Coordinates\+Dict }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_placeable}{IPlaceable}}.
+
+\Hypertarget{class_growcap_plant_a2e8e0ca1a95fa24a85e71a0d98191c64}\label{class_growcap_plant_a2e8e0ca1a95fa24a85e71a0d98191c64} 
+\index{GrowcapPlant@{GrowcapPlant}!IsOfInventoryType@{IsOfInventoryType}}
+\index{IsOfInventoryType@{IsOfInventoryType}!GrowcapPlant@{GrowcapPlant}}
+\doxysubsubsection{\texorpdfstring{IsOfInventoryType()}{IsOfInventoryType()}}
+{\footnotesize\ttfamily bool Growcap\+Plant.\+Is\+Of\+Inventory\+Type (\begin{DoxyParamCaption}\item[{Inventory\+Item\+Type}]{type }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_inventory_item}{IInventory\+Item}}.
+
+\Hypertarget{class_growcap_plant_ac14d832cd9c8e8d10050b4e2858f870d}\label{class_growcap_plant_ac14d832cd9c8e8d10050b4e2858f870d} 
+\index{GrowcapPlant@{GrowcapPlant}!Pickup@{Pickup}}
+\index{Pickup@{Pickup}!GrowcapPlant@{GrowcapPlant}}
+\doxysubsubsection{\texorpdfstring{Pickup()}{Pickup()}}
+{\footnotesize\ttfamily void Growcap\+Plant.\+Pickup (\begin{DoxyParamCaption}\item[{Vector3\+Int}]{grid\+Position\+Int,  }\item[{Dictionary$<$ Vector3\+Int, Game\+Object $>$}]{obj\+Coordinates\+Dict,  }\item[{Game\+Object}]{object\+To\+Destroy }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_placeable}{IPlaceable}}.
+
+\Hypertarget{class_growcap_plant_a5cc1c0ad2483122e67a938f2d6b6b094}\label{class_growcap_plant_a5cc1c0ad2483122e67a938f2d6b6b094} 
+\index{GrowcapPlant@{GrowcapPlant}!PlaceableAbility@{PlaceableAbility}}
+\index{PlaceableAbility@{PlaceableAbility}!GrowcapPlant@{GrowcapPlant}}
+\doxysubsubsection{\texorpdfstring{PlaceableAbility()}{PlaceableAbility()}}
+{\footnotesize\ttfamily void Growcap\+Plant.\+Placeable\+Ability (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_placeable}{IPlaceable}}.
+
+\Hypertarget{class_growcap_plant_a03e5a416d85f0bf5316c2273b982a4b0}\label{class_growcap_plant_a03e5a416d85f0bf5316c2273b982a4b0} 
+\index{GrowcapPlant@{GrowcapPlant}!ResetRadius@{ResetRadius}}
+\index{ResetRadius@{ResetRadius}!GrowcapPlant@{GrowcapPlant}}
+\doxysubsubsection{\texorpdfstring{ResetRadius()}{ResetRadius()}}
+{\footnotesize\ttfamily void Growcap\+Plant.\+Reset\+Radius (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_radius_placeable}{IRadius\+Placeable}}.
+
+\Hypertarget{class_growcap_plant_a02b25f13e7146400eb13d10f119b6769}\label{class_growcap_plant_a02b25f13e7146400eb13d10f119b6769} 
+\index{GrowcapPlant@{GrowcapPlant}!ValidatePlacement@{ValidatePlacement}}
+\index{ValidatePlacement@{ValidatePlacement}!GrowcapPlant@{GrowcapPlant}}
+\doxysubsubsection{\texorpdfstring{ValidatePlacement()}{ValidatePlacement()}}
+{\footnotesize\ttfamily Game\+Object Growcap\+Plant.\+Validate\+Placement (\begin{DoxyParamCaption}\item[{Dictionary$<$ int, Game\+Object $>$}]{tilemap\+Dict,  }\item[{Game\+Object}]{player\+Controller,  }\item[{Vector3\+Int}]{grid\+Pos }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_placeable}{IPlaceable}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+P\+:/\+Botography/\+Botography/\+Assets/\+Script/\+Items/\+Plant/Growcap\+Plant.\+cs\end{DoxyCompactItemize}

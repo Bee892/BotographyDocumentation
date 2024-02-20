@@ -1,0 +1,23 @@
+var searchData=
+[
+  ['iconsumable_0',['IConsumable',['../interface_i_consumable.html',1,'']]],
+  ['iequipment_1',['IEquipment',['../interface_i_equipment.html',1,'']]],
+  ['iinteractiveplaceable_2',['IInteractivePlaceable',['../interface_i_interactive_placeable.html',1,'']]],
+  ['iinventoryitem_3',['IInventoryItem',['../interface_i_inventory_item.html',1,'']]],
+  ['ikeyitem_4',['IKeyItem',['../interface_i_key_item.html',1,'']]],
+  ['imanager_5',['IManager',['../interface_botography_1_1_dependencies_1_1_interfaces_1_1_i_manager.html',1,'Botography::Dependencies::Interfaces']]],
+  ['inputhandler_6',['InputHandler',['../class_input_handler.html',1,'']]],
+  ['interactableobject_7',['InteractableObject',['../class_interactable_object.html',1,'']]],
+  ['interactionmanager_8',['InteractionManager',['../class_interaction_manager.html',1,'']]],
+  ['inventorydraggable_9',['InventoryDraggable',['../class_inventory_draggable.html',1,'']]],
+  ['inventorymanager_10',['InventoryManager',['../class_inventory_manager.html',1,'']]],
+  ['inventorysystem_11',['InventorySystem',['../class_inventory_system.html',1,'']]],
+  ['inventoryui_12',['InventoryUI',['../class_inventory_u_i.html',1,'']]],
+  ['invisibleboxoverplayer_13',['InvisibleBoxOverPlayer',['../class_invisible_box_over_player.html',1,'']]],
+  ['iplaceable_14',['IPlaceable',['../interface_i_placeable.html',1,'']]],
+  ['iradiusplaceable_15',['IRadiusPlaceable',['../interface_i_radius_placeable.html',1,'']]],
+  ['irootstate_16',['IRootState',['../interface_i_root_state.html',1,'']]],
+  ['isystem_17',['ISystem',['../interface_botography_1_1_dependencies_1_1_interfaces_1_1_i_system.html',1,'Botography::Dependencies::Interfaces']]],
+  ['iuicollection_18',['IUiCollection',['../interface_botography_1_1_dependencies_1_1_interfaces_1_1_i_ui_collection.html',1,'Botography::Dependencies::Interfaces']]],
+  ['iuielement_19',['IUiElement',['../interface_botography_1_1_dependencies_1_1_interfaces_1_1_i_ui_element.html',1,'Botography::Dependencies::Interfaces']]]
+];

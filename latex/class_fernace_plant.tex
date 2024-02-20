@@ -1,0 +1,130 @@
+\doxysection{Fernace\+Plant Class Reference}
+\hypertarget{class_fernace_plant}{}\label{class_fernace_plant}\index{FernacePlant@{FernacePlant}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_fernace_plant_a5c6d0a7da93f5c24468127aea9daf631}{Consumable\+Ability}} ()
+\item 
+void \mbox{\hyperlink{class_fernace_plant_a05518f3eba3ac6d2aeaa90c1058539a9}{Pickup}} (Vector3\+Int grid\+Position\+Int, Dictionary$<$ Vector3\+Int, Game\+Object $>$ obj\+Coordinates\+Dict, Game\+Object object\+To\+Destroy)
+\item 
+void \mbox{\hyperlink{class_fernace_plant_af5f2352b7277223395ae3a85c46a7075}{Placeable\+Ability}} ()
+\item 
+Game\+Object \mbox{\hyperlink{class_fernace_plant_a90b1fe21447e7346d4efe42a893c78ab}{Validate\+Placement}} (Dictionary$<$ int, Game\+Object $>$ tilemap\+Dict, Game\+Object player\+Controller, Vector3\+Int grid\+Pos)
+\item 
+void \mbox{\hyperlink{class_fernace_plant_accb50d9feeb1c55ec391f8996d367629}{instantiate\+Object}} (Vector3\+Int grid\+Position\+Int, Game\+Object selected\+Obj, Tilemap\+Renderer cur\+Renderer, Dictionary$<$ Vector3\+Int, Game\+Object $>$ obj\+Coordinates\+Dict)
+\item 
+bool \mbox{\hyperlink{class_fernace_plant_a9ae545b4ab18dd5e08fd2c64646748fe}{Is\+Of\+Inventory\+Type}} (Inventory\+Item\+Type type)
+\item 
+void \mbox{\hyperlink{class_fernace_plant_a3ac2e8eabe3c8b24f866a83694486e85}{Increase\+Radius}} ()
+\item 
+void \mbox{\hyperlink{class_fernace_plant_a40525251faa88a729ac7133b7b91c113}{Reset\+Radius}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_base_plant}{Base\+Plant}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_plant_s_o}{Plant\+SO}} {\bfseries get\+Plant\+SO} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Protected Attributes inherited from \mbox{\hyperlink{class_base_plant}{Base\+Plant}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_plant_s_o}{Plant\+SO}} {\bfseries plant\+SO}
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties inherited from \mbox{\hyperlink{class_base_plant}{Base\+Plant}}}
+\begin{DoxyCompactItemize}
+\item 
+Game\+Object {\bfseries Game\+Object}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties inherited from \mbox{\hyperlink{interface_i_inventory_item}{IInventory\+Item}}}
+\begin{DoxyCompactItemize}
+\item 
+Game\+Object {\bfseries Game\+Object}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_fernace_plant_a5c6d0a7da93f5c24468127aea9daf631}\label{class_fernace_plant_a5c6d0a7da93f5c24468127aea9daf631} 
+\index{FernacePlant@{FernacePlant}!ConsumableAbility@{ConsumableAbility}}
+\index{ConsumableAbility@{ConsumableAbility}!FernacePlant@{FernacePlant}}
+\doxysubsubsection{\texorpdfstring{ConsumableAbility()}{ConsumableAbility()}}
+{\footnotesize\ttfamily void Fernace\+Plant.\+Consumable\+Ability (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_consumable}{IConsumable}}.
+
+\Hypertarget{class_fernace_plant_a3ac2e8eabe3c8b24f866a83694486e85}\label{class_fernace_plant_a3ac2e8eabe3c8b24f866a83694486e85} 
+\index{FernacePlant@{FernacePlant}!IncreaseRadius@{IncreaseRadius}}
+\index{IncreaseRadius@{IncreaseRadius}!FernacePlant@{FernacePlant}}
+\doxysubsubsection{\texorpdfstring{IncreaseRadius()}{IncreaseRadius()}}
+{\footnotesize\ttfamily void Fernace\+Plant.\+Increase\+Radius (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_radius_placeable}{IRadius\+Placeable}}.
+
+\Hypertarget{class_fernace_plant_accb50d9feeb1c55ec391f8996d367629}\label{class_fernace_plant_accb50d9feeb1c55ec391f8996d367629} 
+\index{FernacePlant@{FernacePlant}!instantiateObject@{instantiateObject}}
+\index{instantiateObject@{instantiateObject}!FernacePlant@{FernacePlant}}
+\doxysubsubsection{\texorpdfstring{instantiateObject()}{instantiateObject()}}
+{\footnotesize\ttfamily void Fernace\+Plant.\+instantiate\+Object (\begin{DoxyParamCaption}\item[{Vector3\+Int}]{grid\+Position\+Int,  }\item[{Game\+Object}]{selected\+Obj,  }\item[{Tilemap\+Renderer}]{cur\+Renderer,  }\item[{Dictionary$<$ Vector3\+Int, Game\+Object $>$}]{obj\+Coordinates\+Dict }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_placeable}{IPlaceable}}.
+
+\Hypertarget{class_fernace_plant_a9ae545b4ab18dd5e08fd2c64646748fe}\label{class_fernace_plant_a9ae545b4ab18dd5e08fd2c64646748fe} 
+\index{FernacePlant@{FernacePlant}!IsOfInventoryType@{IsOfInventoryType}}
+\index{IsOfInventoryType@{IsOfInventoryType}!FernacePlant@{FernacePlant}}
+\doxysubsubsection{\texorpdfstring{IsOfInventoryType()}{IsOfInventoryType()}}
+{\footnotesize\ttfamily bool Fernace\+Plant.\+Is\+Of\+Inventory\+Type (\begin{DoxyParamCaption}\item[{Inventory\+Item\+Type}]{type }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_inventory_item}{IInventory\+Item}}.
+
+\Hypertarget{class_fernace_plant_a05518f3eba3ac6d2aeaa90c1058539a9}\label{class_fernace_plant_a05518f3eba3ac6d2aeaa90c1058539a9} 
+\index{FernacePlant@{FernacePlant}!Pickup@{Pickup}}
+\index{Pickup@{Pickup}!FernacePlant@{FernacePlant}}
+\doxysubsubsection{\texorpdfstring{Pickup()}{Pickup()}}
+{\footnotesize\ttfamily void Fernace\+Plant.\+Pickup (\begin{DoxyParamCaption}\item[{Vector3\+Int}]{grid\+Position\+Int,  }\item[{Dictionary$<$ Vector3\+Int, Game\+Object $>$}]{obj\+Coordinates\+Dict,  }\item[{Game\+Object}]{object\+To\+Destroy }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_placeable}{IPlaceable}}.
+
+\Hypertarget{class_fernace_plant_af5f2352b7277223395ae3a85c46a7075}\label{class_fernace_plant_af5f2352b7277223395ae3a85c46a7075} 
+\index{FernacePlant@{FernacePlant}!PlaceableAbility@{PlaceableAbility}}
+\index{PlaceableAbility@{PlaceableAbility}!FernacePlant@{FernacePlant}}
+\doxysubsubsection{\texorpdfstring{PlaceableAbility()}{PlaceableAbility()}}
+{\footnotesize\ttfamily void Fernace\+Plant.\+Placeable\+Ability (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_placeable}{IPlaceable}}.
+
+\Hypertarget{class_fernace_plant_a40525251faa88a729ac7133b7b91c113}\label{class_fernace_plant_a40525251faa88a729ac7133b7b91c113} 
+\index{FernacePlant@{FernacePlant}!ResetRadius@{ResetRadius}}
+\index{ResetRadius@{ResetRadius}!FernacePlant@{FernacePlant}}
+\doxysubsubsection{\texorpdfstring{ResetRadius()}{ResetRadius()}}
+{\footnotesize\ttfamily void Fernace\+Plant.\+Reset\+Radius (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_radius_placeable}{IRadius\+Placeable}}.
+
+\Hypertarget{class_fernace_plant_a90b1fe21447e7346d4efe42a893c78ab}\label{class_fernace_plant_a90b1fe21447e7346d4efe42a893c78ab} 
+\index{FernacePlant@{FernacePlant}!ValidatePlacement@{ValidatePlacement}}
+\index{ValidatePlacement@{ValidatePlacement}!FernacePlant@{FernacePlant}}
+\doxysubsubsection{\texorpdfstring{ValidatePlacement()}{ValidatePlacement()}}
+{\footnotesize\ttfamily Game\+Object Fernace\+Plant.\+Validate\+Placement (\begin{DoxyParamCaption}\item[{Dictionary$<$ int, Game\+Object $>$}]{tilemap\+Dict,  }\item[{Game\+Object}]{player\+Controller,  }\item[{Vector3\+Int}]{grid\+Pos }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_placeable}{IPlaceable}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+P\+:/\+Botography/\+Botography/\+Assets/\+Script/\+Items/\+Plant/Fernace\+Plant.\+cs\end{DoxyCompactItemize}

@@ -1,0 +1,118 @@
+\doxysection{Lantern\+Plant Class Reference}
+\hypertarget{class_lantern_plant}{}\label{class_lantern_plant}\index{LanternPlant@{LanternPlant}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_lantern_plant_afb589858a65ee4ca27d1bed525e7a20d}{Pickup}} (Vector3\+Int grid\+Position\+Int, Dictionary$<$ Vector3\+Int, Game\+Object $>$ obj\+Coordinates\+Dict, Game\+Object object\+To\+Destroy)
+\item 
+void \mbox{\hyperlink{class_lantern_plant_a35ff6f0f68019b02f3a33c5ff3f2838f}{Placeable\+Ability}} ()
+\item 
+Game\+Object \mbox{\hyperlink{class_lantern_plant_ae4270761c2aad061ffef19099822daaf}{Validate\+Placement}} (Dictionary$<$ int, Game\+Object $>$ tilemap\+Dict, Game\+Object player\+Controller, Vector3\+Int grid\+Pos)
+\item 
+void \mbox{\hyperlink{class_lantern_plant_aa103657eb6dc6d857415783c23e2d115}{instantiate\+Object}} (Vector3\+Int grid\+Position\+Int, Game\+Object selected\+Obj, Tilemap\+Renderer cur\+Renderer, Dictionary$<$ Vector3\+Int, Game\+Object $>$ obj\+Coordinates\+Dict)
+\item 
+bool \mbox{\hyperlink{class_lantern_plant_a1f225bba4774f14d1e94dd7ac5b88284}{Is\+Of\+Inventory\+Type}} (Inventory\+Item\+Type type)
+\item 
+void \mbox{\hyperlink{class_lantern_plant_a404131d22acab26b238b00c50056161c}{Increase\+Radius}} ()
+\item 
+void \mbox{\hyperlink{class_lantern_plant_adbae032ebfe6ccabac540c489227404d}{Reset\+Radius}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_base_plant}{Base\+Plant}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_plant_s_o}{Plant\+SO}} {\bfseries get\+Plant\+SO} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Protected Attributes inherited from \mbox{\hyperlink{class_base_plant}{Base\+Plant}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_plant_s_o}{Plant\+SO}} {\bfseries plant\+SO}
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties inherited from \mbox{\hyperlink{class_base_plant}{Base\+Plant}}}
+\begin{DoxyCompactItemize}
+\item 
+Game\+Object {\bfseries Game\+Object}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties inherited from \mbox{\hyperlink{interface_i_inventory_item}{IInventory\+Item}}}
+\begin{DoxyCompactItemize}
+\item 
+Game\+Object {\bfseries Game\+Object}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_lantern_plant_a404131d22acab26b238b00c50056161c}\label{class_lantern_plant_a404131d22acab26b238b00c50056161c} 
+\index{LanternPlant@{LanternPlant}!IncreaseRadius@{IncreaseRadius}}
+\index{IncreaseRadius@{IncreaseRadius}!LanternPlant@{LanternPlant}}
+\doxysubsubsection{\texorpdfstring{IncreaseRadius()}{IncreaseRadius()}}
+{\footnotesize\ttfamily void Lantern\+Plant.\+Increase\+Radius (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_radius_placeable}{IRadius\+Placeable}}.
+
+\Hypertarget{class_lantern_plant_aa103657eb6dc6d857415783c23e2d115}\label{class_lantern_plant_aa103657eb6dc6d857415783c23e2d115} 
+\index{LanternPlant@{LanternPlant}!instantiateObject@{instantiateObject}}
+\index{instantiateObject@{instantiateObject}!LanternPlant@{LanternPlant}}
+\doxysubsubsection{\texorpdfstring{instantiateObject()}{instantiateObject()}}
+{\footnotesize\ttfamily void Lantern\+Plant.\+instantiate\+Object (\begin{DoxyParamCaption}\item[{Vector3\+Int}]{grid\+Position\+Int,  }\item[{Game\+Object}]{selected\+Obj,  }\item[{Tilemap\+Renderer}]{cur\+Renderer,  }\item[{Dictionary$<$ Vector3\+Int, Game\+Object $>$}]{obj\+Coordinates\+Dict }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_placeable}{IPlaceable}}.
+
+\Hypertarget{class_lantern_plant_a1f225bba4774f14d1e94dd7ac5b88284}\label{class_lantern_plant_a1f225bba4774f14d1e94dd7ac5b88284} 
+\index{LanternPlant@{LanternPlant}!IsOfInventoryType@{IsOfInventoryType}}
+\index{IsOfInventoryType@{IsOfInventoryType}!LanternPlant@{LanternPlant}}
+\doxysubsubsection{\texorpdfstring{IsOfInventoryType()}{IsOfInventoryType()}}
+{\footnotesize\ttfamily bool Lantern\+Plant.\+Is\+Of\+Inventory\+Type (\begin{DoxyParamCaption}\item[{Inventory\+Item\+Type}]{type }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_inventory_item}{IInventory\+Item}}.
+
+\Hypertarget{class_lantern_plant_afb589858a65ee4ca27d1bed525e7a20d}\label{class_lantern_plant_afb589858a65ee4ca27d1bed525e7a20d} 
+\index{LanternPlant@{LanternPlant}!Pickup@{Pickup}}
+\index{Pickup@{Pickup}!LanternPlant@{LanternPlant}}
+\doxysubsubsection{\texorpdfstring{Pickup()}{Pickup()}}
+{\footnotesize\ttfamily void Lantern\+Plant.\+Pickup (\begin{DoxyParamCaption}\item[{Vector3\+Int}]{grid\+Position\+Int,  }\item[{Dictionary$<$ Vector3\+Int, Game\+Object $>$}]{obj\+Coordinates\+Dict,  }\item[{Game\+Object}]{object\+To\+Destroy }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_placeable}{IPlaceable}}.
+
+\Hypertarget{class_lantern_plant_a35ff6f0f68019b02f3a33c5ff3f2838f}\label{class_lantern_plant_a35ff6f0f68019b02f3a33c5ff3f2838f} 
+\index{LanternPlant@{LanternPlant}!PlaceableAbility@{PlaceableAbility}}
+\index{PlaceableAbility@{PlaceableAbility}!LanternPlant@{LanternPlant}}
+\doxysubsubsection{\texorpdfstring{PlaceableAbility()}{PlaceableAbility()}}
+{\footnotesize\ttfamily void Lantern\+Plant.\+Placeable\+Ability (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_placeable}{IPlaceable}}.
+
+\Hypertarget{class_lantern_plant_adbae032ebfe6ccabac540c489227404d}\label{class_lantern_plant_adbae032ebfe6ccabac540c489227404d} 
+\index{LanternPlant@{LanternPlant}!ResetRadius@{ResetRadius}}
+\index{ResetRadius@{ResetRadius}!LanternPlant@{LanternPlant}}
+\doxysubsubsection{\texorpdfstring{ResetRadius()}{ResetRadius()}}
+{\footnotesize\ttfamily void Lantern\+Plant.\+Reset\+Radius (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_radius_placeable}{IRadius\+Placeable}}.
+
+\Hypertarget{class_lantern_plant_ae4270761c2aad061ffef19099822daaf}\label{class_lantern_plant_ae4270761c2aad061ffef19099822daaf} 
+\index{LanternPlant@{LanternPlant}!ValidatePlacement@{ValidatePlacement}}
+\index{ValidatePlacement@{ValidatePlacement}!LanternPlant@{LanternPlant}}
+\doxysubsubsection{\texorpdfstring{ValidatePlacement()}{ValidatePlacement()}}
+{\footnotesize\ttfamily Game\+Object Lantern\+Plant.\+Validate\+Placement (\begin{DoxyParamCaption}\item[{Dictionary$<$ int, Game\+Object $>$}]{tilemap\+Dict,  }\item[{Game\+Object}]{player\+Controller,  }\item[{Vector3\+Int}]{grid\+Pos }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_placeable}{IPlaceable}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+P\+:/\+Botography/\+Botography/\+Assets/\+Script/\+Items/\+Plant/Lantern\+Plant.\+cs\end{DoxyCompactItemize}
